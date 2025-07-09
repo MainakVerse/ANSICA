@@ -82,12 +82,13 @@ export default function Hero() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <button
+              <a
+                href="/generator"
                 className="inline-flex items-center justify-center rounded-md bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-3 text-lg font-semibold transition"
               >
                 <CirclePower className="w-5 h-5 mr-2" />
                 Get started
-              </button>
+              </a>
               <button
                 className="inline-flex items-center justify-center rounded-md border border-slate-600 text-slate-300 hover:bg-slate-800 px-8 py-3 text-lg bg-transparent transition"
               >
