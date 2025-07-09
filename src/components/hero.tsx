@@ -125,21 +125,14 @@ export default function Hero() {
                   playsInline
                   poster="/placeholder.svg?height=400&width=600"
                 >
-                  <source src="/placeholder-video.mp4" type="video/mp4" />
+                  <source src="/ansica.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
 
                 {/* Video Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/50 to-transparent" />
 
-                {/* Play Button Overlay */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <button
-                    className="inline-flex items-center justify-center rounded-md bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/20 text-white p-3 transition"
-                  >
-                    <Play className="w-6 h-6" />
-                  </button>
-                </div>
+                
               </div>
 
               {/* Terminal-like Header */}
